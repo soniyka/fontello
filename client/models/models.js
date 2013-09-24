@@ -80,6 +80,8 @@ N.wire.once('navigate.done', { priority: -100 }, function () {
       , css:  this.name()
       , code: this.code()
       , src:  this.font.fontname
+      , isCustom:  this.font.isCustom
+      , svg: this.svg
       };
     }.bind(this);
 
